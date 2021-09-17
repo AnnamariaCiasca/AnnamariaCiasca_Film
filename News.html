@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="StyleSheet.css?ts=<?=time()?>&quot">
+    <script src="JavaScript.js"></script>
+</head>
+<body>
+    <center>
+        <header>
+            <h1> <img src="https://i.ibb.co/J2yr1pK/AAAABdytvedd-Nqnm-m-KUN6x1-UN-f-GJwq-UK5q5v44-WQvv-WCv-Kz9-Ne-Fz5q17a-Zdu-Iy-Ldf-Atu-C-I662d4-Uq-Im.png" style="height:200px; width:600px; margin-top:0px" /> </h1>
+
+            <nav>
+                <ul id="Nav">
+
+                    <li id="barra"><a href="HomePage.html">Home</a></li>
+                    <li id="barra"><a href="SchedaTecnica.html">Scheda Tecnica</a></li>
+                    <li id="barra"><a href="News.html">News</a></li>
+
+
+                </ul>
+
+            </nav>
+        </header>
+        <br /><br />
+        <main>
+
+            <fieldset id="newsfield" style="margin-left:100px; margin-right:100px;">
+                <legend id="legendNews"><b>Newsletter</b></legend>
+                <br /><br /><br />
+                <center>
+  
+                    <form>
+                        <div id="form">
+                            <label>Email</label>
+                            <input id="email" type="email"/><br /><br /><br />
+                            <label>Username</label>
+                            <input id="u" type="text" onKeyup="checkform()" /><br /><br />
+                        </div>
+                        <input id="submitbutton" type="submit" disabled="disabled" value="Subscribe" onclick="save()" />
+                        <input id="unsubmitButton" type="button" value="Unsubscribe" onclick="unsubscribe()" />
+                    </form>
+                </center>
+                <br /><br />
+            </fieldset>
+        </main>
+    </center>
+    <br /><br />
+    <center> <form action="HomePage.html"><button type="submit" id="tornaHome"> Torna alla Home</button></form></center>
+    <footer>
+        <br />
+        <br />
+        <br />
+        <h5>&copy; Annamaria Ciasca<br />Tutti i diritti riservati</h5>
+    </footer>
+</body>
+</html>
